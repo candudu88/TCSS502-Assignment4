@@ -3,17 +3,17 @@ from abc import ABC
 from Shape import Shape
 
 
-class DrawingProgram(Shape):
+class DrawingProgram():
 
     def __init__(self):
         self.list_of_shapes = []
 
     def add_shape(self, shape):
         self.list_of_shapes.append(shape)
-        pass
+
 
     def remove_shape(self):
-        pass
+        self.list_of_shapes.remove()
 
     def print_shape(self):
         pass
@@ -22,7 +22,8 @@ class DrawingProgram(Shape):
         pass
 
     def __str__(self):
-        pass
+        for shape in self.list_of_shapes:
+            shape.draw()
 
     def get_shape(self, index):
         pass
