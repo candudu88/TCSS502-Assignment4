@@ -2,7 +2,7 @@ from Shape import Shape
 
 
 class Circle(Shape):
-    def __init__(self, radius, name_of_shape):
+    def __init__(self, name_of_shape, radius):
         super().__init__(name_of_shape)
         self.__radius = radius
 

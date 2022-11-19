@@ -3,23 +3,22 @@ from Square import Square
 from Rectangle import Rectangle
 from Triangle import Triangle
 
+
 class ShapeFactory:
 
     @staticmethod
-    def create_shape(self, shape, parameter):
+    def create_shape(shape, *args):
         if shape == "Circle":
-            return Circle(parameter, shape)
+            return Circle(shape, args[0])
         elif shape == "Square":
-            return Square(parameter, shape)
+            return Square(shape, args[0])
+        elif shape == "Rectangle":
+            return Rectangle(shape, args[0], args[1])
+        elif shape == "Triangle":
+            return Triangle(shape, args[0], args[1])
         else:
             raise Exception
 
-    @staticmethod
-    def create_shape(self, shape, para1, para2):
-        if shape == "Rectangle":
-            return Rectangle(para1, para2, shape)
-        elif shape == "Triangle":
-            return Triangle(para1, para2, shape)
-        else:
-            raise Exception
+
+
 

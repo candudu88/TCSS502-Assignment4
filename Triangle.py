@@ -2,7 +2,7 @@ from Shape import Shape
 
 
 class Triangle(Shape):
-    def __init__(self, base, height, name_of_shape):
+    def __init__(self, name_of_shape, base, height):
         super().__init__(name_of_shape)
         self.__side = None
         self.__base = base
