@@ -19,7 +19,7 @@ class DrawingProgram():
     def remove_shape(self, shape):
         self.list_of_shapes.remove(shape)
 
-    def print_shape(self):
+    def print_shape(self, shape):
         pass
 
     def sort_shapes(self):
