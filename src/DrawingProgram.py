@@ -1,6 +1,7 @@
-from src.Shape import Shape
-
-from src.DrawingProgramIterator import DrawingProgramIterator
+#from src.Shape import Shape
+from Shape import Shape
+#from src.DrawingProgramIterator import DrawingProgramIterator
+from DrawingProgramIterator import DrawingProgramIterator
 
 
 class DrawingProgram:
@@ -37,8 +38,10 @@ class DrawingProgram:
         self.list_of_shapes.sort()
 
     def __str__(self):
+        str_of_shapes = ""
         for shape in self.list_of_shapes:
-            shape.draw()
+            str_of_shapes += str(shape) + "\n"
+        return str_of_shapes
 
     def get_shape(self, index):
         return self.list_of_shapes[index]
