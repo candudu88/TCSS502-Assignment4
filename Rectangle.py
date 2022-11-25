@@ -14,4 +14,7 @@ class Rectangle(Shape):
         return self.__length * 2 + self.__width * 0.5
 
     def draw(self):
-        print(f"{self.__shape_name}, area: {self.area()}, perimeter: {self.perimeter()}")
+        print(str(self))
+
+    def __str__(self):
+        return f"{self.get_name()}, area: {self.area()}, perimeter: {self.perimeter()}"

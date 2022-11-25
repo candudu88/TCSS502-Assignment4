@@ -13,4 +13,7 @@ class Circle(Shape):
         return 2 * 3.14 * self.__radius
 
     def draw(self):
-        print(f"{self.__shape_name}, area: {self.area()}, perimeter: {self.perimeter()}\n")
+        print(str(self))
+
+    def __str__(self):
+        return f"{self.get_name()}, area: {self.area()}, perimeter: {self.perimeter()}"

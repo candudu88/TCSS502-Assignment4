@@ -15,4 +15,7 @@ class Triangle(Shape):
         return 4 * self.__side
 
     def draw(self):
-        print(f"{self.__shape_name}, area: {self.area()}, perimeter: {self.perimeter()}")
+        print(str(self))
+
+    def __str__(self):
+        return f"{self.get_name()}, area: {self.area()}, perimeter: {self.perimeter()}"
