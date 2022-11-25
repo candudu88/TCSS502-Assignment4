@@ -26,8 +26,10 @@ class DrawingProgram():
         pass
 
     def __str__(self):
+        str_of_shapes = ""
         for shape in self.list_of_shapes:
-            shape.draw()
+            str_of_shapes += str(shape) + "\n"
+        return str_of_shapes
 
     def get_shape(self, index):
         pass
