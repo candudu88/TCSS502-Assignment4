@@ -19,7 +19,7 @@ class Rectangle(Shape):
         self._shape_name = "Rectangle"
         if len(args) == 2:
             self.__length = float(args[0])
-            self.__width = float(args[0])
+            self.__width = float(args[1])
         else:
             raise TypeError("Input arguments number is wrong for create a rectangle")
 

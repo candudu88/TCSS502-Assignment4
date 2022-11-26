@@ -11,8 +11,8 @@ class Square(Shape):
     def __init__(self, *args):
         """
         This method is used to create an instance of a Square, creating private
-        fields and initializing shape_name to Square, and side from
-        values passed as parameters to the method
+        fields and initializing shape_name to Square, and side from values passed
+        as parameters to the method
         """
         self._shape_name = "Square"
         if len(args) == 1:

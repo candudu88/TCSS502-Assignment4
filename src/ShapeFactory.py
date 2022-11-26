@@ -20,7 +20,7 @@ class ShapeFactory:
         """
         if shape.lower() == "circle":
             return Circle(*args)
-        elif shape.lower() == "square" or (shape == "rectangle" and len(args) == 1):
+        elif shape.lower() == "square" or (shape.lower() == "rectangle" and len(args) == 1):
             return Square(*args)
         elif shape.lower() == "rectangle":
             return Rectangle(*args)

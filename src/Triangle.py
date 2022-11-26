@@ -12,9 +12,9 @@ class Triangle(Shape):
     """
     def __init__(self, *args):
         """
-        This method is used to create an instance of a Rectangle, creating private
-        fields and initializing shape_name to Rectangle, length and
-        width from values passed as parameters to the method
+        This method is used to create an instance of a Triangle, creating private
+        fields and initializing shape_name to Triangle, and three side from values
+        passed as parameters to the method
         """
         self._shape_name = "Triangle"
         if len(args) == 3:
