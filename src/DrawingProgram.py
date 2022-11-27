@@ -37,7 +37,7 @@ class DrawingProgram:
         :param shape: shape type to remove
         :return: int
         """
-        to_remove_shape_list = [];
+        to_remove_shape_list = []
         for idx in range(len(self.list_of_shapes)):
             if type(self.list_of_shapes[idx]) == type(shape):
                 to_remove_shape_list.append(self.list_of_shapes[idx])

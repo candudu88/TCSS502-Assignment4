@@ -14,7 +14,7 @@ class DrawingProgramIterator:
 
     def __next__(self):
         """Method to move to next element """
-        if self._index < len(self.list):
+        if self._index < len(self.list_of_shapes):
             ret = self.list_of_shapes[self._index]
             self._index += 1
             return ret
