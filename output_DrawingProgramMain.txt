@@ -1,4 +1,3 @@
-/Users/candice/PycharmProjects/TCSS502_Assignment4/venv/bin/python /Users/candice/PycharmProjects/TCSS502_Assignment4/src/DrawingProgramMain.py 
 <-----------print all the shape from drawing_program----------->
 Circle, area: 12.566370614359172, perimeter: 12.566370614359172
 Circle, area: 28.274333882308138, perimeter: 18.84955592153876
