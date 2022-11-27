@@ -1,0 +1,31 @@
+/Users/candice/PycharmProjects/TCSS502_Assignment4/venv/bin/python /Users/candice/PycharmProjects/TCSS502_Assignment4/src/DrawingProgramMain.py 
+<-----------print all the shape from drawing_program----------->
+Circle, area: 12.566370614359172, perimeter: 12.566370614359172
+Circle, area: 28.274333882308138, perimeter: 18.84955592153876
+Circle, area: 3.141592653589793, perimeter: 6.283185307179586
+
+<-----------print all the shape drawing_program after sorting----------->
+Circle, area: 3.141592653589793, perimeter: 6.283185307179586
+Circle, area: 12.566370614359172, perimeter: 12.566370614359172
+Circle, area: 28.274333882308138, perimeter: 18.84955592153876
+
+<-----------print all the shape from drawing_program after add new shape----------->
+Circle, area: 3.141592653589793, perimeter: 6.283185307179586
+Circle, area: 12.566370614359172, perimeter: 12.566370614359172
+Circle, area: 28.274333882308138, perimeter: 18.84955592153876
+Triangle, area: 2.9047375096555625, perimeter: 9.0
+Rectangle, area: 6.0, perimeter: 10.0
+
+<-----------print all the shape drawing_program after add new shape and sorting----------->
+Circle, area: 3.141592653589793, perimeter: 6.283185307179586
+Circle, area: 12.566370614359172, perimeter: 12.566370614359172
+Circle, area: 28.274333882308138, perimeter: 18.84955592153876
+Rectangle, area: 6.0, perimeter: 10.0
+Triangle, area: 2.9047375096555625, perimeter: 9.0
+
+<-----------print all the shapes after replace one shape and sorting----------->
+Circle, area: 12.566370614359172, perimeter: 12.566370614359172
+Circle, area: 28.274333882308138, perimeter: 18.84955592153876
+Rectangle, area: 6.0, perimeter: 10.0
+Square, area: 4.0, perimeter: 8.0
+Triangle, area: 2.9047375096555625, perimeter: 9.0
