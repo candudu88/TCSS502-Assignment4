@@ -32,12 +32,12 @@ class ShapeTests(unittest.TestCase):
         circle_one = Circle(1.0)
         self.assertEqual(6.283185307179586, circle_one.perimeter(), "expected perimeter of 6.283185307179586")
 
-    def test_circle_perimeter_given_valid_ints(self):
+    def test_rectangle_perimeter_given_valid_ints(self):
         """Test perimeter method of circle by passing in int parameters"""
         rectangle_one = Rectangle(2, 3)
         self.assertEqual(10.0, rectangle_one.perimeter(), "expected perimeter of 10.0")
 
-    def test_circle_perimeter_given_valid_strings(self):
+    def test_rectangle_perimeter_given_valid_strings(self):
         """Test perimeter method of circle by passing string as parameter"""
         rectangle_one = Rectangle("2.0", "3.0")
         self.assertEqual(10.0, rectangle_one.perimeter(), "expected perimeter of 10.0")
